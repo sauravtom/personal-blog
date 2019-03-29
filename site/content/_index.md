@@ -1,7 +1,7 @@
 ---
 title: ICO/STO listing blog
 subtitle: "\U0001F525"
-image: /img/benjamin-hung-340398-unsplash.jpg
+image: /img/alesia-kazantceva-283291-unsplash.jpg
 blurb:
   heading: 'Consultation, advisory and content for blockchain startups'
   text: .
