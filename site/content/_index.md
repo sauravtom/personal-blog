@@ -1,23 +1,13 @@
 ---
-title: The science and maths of poker
-subtitle: one post at a time
-image: /img/p0.jpg
+title: ICO/STO listing blog
+subtitle: "\U0001F525"
+image: /img/benjamin-hung-340398-unsplash.jpg
 blurb:
-  heading: Becoming better at Poker
+  heading: 'Consultation, advisory and content for blockchain startups'
   text: .
 intro:
-  heading: Before you dive deep
-  text: >-
-    Do not play with anything more than you are comfortable losing. Poker is a
-    high variance game - you can do everything correctly and still lose. It's
-    always best to be prepared for the worst and have enough money to continue
-    playing if things happen to go south.
-
-
-    A good rule of thumb is to have at least 20 buy-ins to play cash games and
-    at least 50 buy-ins to play tournaments. Tournaments are known to have a
-    much higher variance than regular cash games, which is why you always want
-    to have a higher amount of buy-ins to play.
+  heading: ','
+  text: .
 products: []
 values:
   heading: test
