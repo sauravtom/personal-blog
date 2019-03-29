@@ -1,4 +1,4 @@
-baseurl = "https://p0ker.netlify.com"
+baseurl = "https://blog.icohunt.co"
 languageCode = "en-us"
 title = "Homepage"
-disqusShortname = "p0ker"
+disqusShortname = "icohunt-blog"
