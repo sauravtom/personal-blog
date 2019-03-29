@@ -1,35 +1,58 @@
 {
-  "name": "eleventy-netlify-boilerplate",
-  "version": "1.0.1",
-  "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
+  "name": "victor-hugo",
+  "version": "1.0.0",
+  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
+  "main": "index.js",
   "scripts": {
-    "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "hugo": "gulp hugo",
+    "webpack": "gulp webpack",
+    "build": "gulp build",
+    "build-preview": "gulp build-preview",
+    "start": "gulp server",
+    "lint": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate"
-  },
-  "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "url": "https://www.danurbanowicz.com/"
-  },
+  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate/issues"
-  },
-  "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.7.1",
-    "luxon": "^1.11.0",
-    "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^4.0.0"
-  },
   "dependencies": {
-    "clean-css": "^4.2.1",
-    "html-minifier": "^3.5.21",
-    "uglify-es": "^3.3.9"
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.0.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.10.2",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.11.6",
+    "browser-sync": "^2.13.0",
+    "css-loader": "^2.0.0",
+    "cssnano": "^4.0.0",
+    "date-fns": "^1.27.2",
+    "eslint": "^5.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^2.0.0",
+    "gotrue-js": "^0.9.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-util": "^3.0.7",
+    "imports-loader": "^0.8.0",
+    "netlify-cms": "^2.4.2",
+    "postcss-cssnext": "^3.0.0",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-uncss": "^0.16.0",
+    "react": "16.7.0",
+    "uncss": "^0.16.0",
+    "url-loader": "^1.0.0",
+    "webpack": "^3.0.0",
+    "whatwg-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-inject": "^5.0.0",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "svg-sprite-loader": "^3.0.0"
   }
 }
