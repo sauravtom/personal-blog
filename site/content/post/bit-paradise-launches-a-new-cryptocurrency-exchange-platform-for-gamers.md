@@ -1,6 +1,6 @@
 ---
 title: Bit Paradise Launches a New Cryptocurrency Exchange Platform for Gamers
-date: 2019-04-16T09:06:11.617Z
+date: 2019-04-01T09:06:11.617Z
 description: Bit Paradise ICO review
 image: /img/0.png
 ---
